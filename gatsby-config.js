@@ -15,7 +15,7 @@ module.exports = {
       },
     ],
   },
-  pathPrefix: '/',
+  pathPrefix: '/Stino',
   plugins: [
     'gatsby-plugin-react-helmet',
     {
