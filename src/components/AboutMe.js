@@ -6,7 +6,7 @@ const AboutMe = () => {
       <div className="page__wrapper">
         <h2>About me</h2>
         <p>
-          I've been in webdevelopment for quite a long time now and what
+          I've been into webdevelopment for quite a long time now and what
           intrigues me the most is the way how all the technologies change over
           time. Whenever you think “This is it, now we‘ve reached the limit of
           what we can do“ something new is comming up, untill the point where
