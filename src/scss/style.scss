@@ -1,0 +1,25 @@
+@import url('//fonts.googleapis.com/css?family=Poppins:200,400,500,700');
+
+@import './colors';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.page__wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+@import './masthead';
+@import './about-me';
+@import './next';

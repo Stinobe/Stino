@@ -1,0 +1,33 @@
+.about-me {
+  background-color: $grey-color;
+  padding: 2rem 1.5rem;
+
+  h2 {
+    color: $primary-color;
+    font-size: 1.25rem;
+    margin-bottom: 1em;
+    display: block;
+
+    &:after {
+      background-image: linear-gradient(
+        to right,
+        rgba($primary-color, 0.8) 20%,
+        $grey-color 20%
+      );
+      content: '';
+      display: block;
+      height: 1px;
+      margin-top: 0.3em;
+      width: 100%;
+    }
+  }
+
+  p {
+    color: $text-dark;
+    margin-bottom: 1em;
+  }
+
+  a {
+    color: rgba($primary-color, 0.6);
+  }
+}
